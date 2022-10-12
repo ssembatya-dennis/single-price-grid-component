@@ -78,6 +78,7 @@ body {
 }
 
 .btn {
+  display: block;
   width: 100%;
   font-weight: 700;
   font-size: 1.6rem;
@@ -86,6 +87,7 @@ body {
   color: #fff;
   padding: 1.3rem 1.8rem;
   border-radius: 5px;
+  text-align: center;
   text-decoration: none;
 }
 

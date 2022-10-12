@@ -25,3 +25,30 @@
 .grid__col-right {
   background-color: hsla(179, 62%, 43%, 0.6);
 }
+
+@media screen and (max-width: 425px) {
+  .grid__component {
+    display: grid;
+    width: 90%;
+    min-height: 90rem;
+    grid-template-columns: 1fr;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px;
+    margin: 4rem 0;
+  }
+
+  .grid__col-top {
+    background-color: #fff;
+    grid-column: 1 / 2;
+  }
+
+  .grid__col-left {
+    grid-column: 1 / 2;
+    background-color: hsla(179, 62%, 43%, 1);
+  }
+
+  .grid__col-right {
+    grid-column: 1 / 2;
+    background-color: hsla(179, 62%, 43%, 0.6);
+  }
+}
