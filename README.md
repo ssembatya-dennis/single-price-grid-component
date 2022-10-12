@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-single-price-grid-component-Yf2uG1wE7v)
+- Live Site URL: [Single price grid component challenge #live site](https://single-price-grid-component-eosin-ten.vercel.app/)
 
 ### Built with
 
