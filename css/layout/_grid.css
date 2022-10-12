@@ -2,8 +2,8 @@
 
 .grid__component {
   display: grid;
-  width: 63.5rem;
-  height: 47.5rem;
+  max-width: 63.5rem;
+  min-height: 49rem;
   grid-template-columns: repeat(2, 1fr);
   box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
   border-radius: 8px;
