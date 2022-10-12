@@ -1,0 +1,27 @@
+/*Grid Layout*/
+
+.grid__component {
+  display: grid;
+  width: 63.5rem;
+  height: 47.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px;
+}
+
+.grid__col {
+  padding: 4rem;
+}
+
+.grid__col-top {
+  background-color: #fff;
+  grid-column: 1 / 3;
+}
+
+.grid__col-left {
+  background-color: hsla(179, 62%, 43%, 1);
+}
+
+.grid__col-right {
+  background-color: hsla(179, 62%, 43%, 0.6);
+}
